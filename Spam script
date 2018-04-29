@@ -1,7 +1,7 @@
  var timer = setInterval(general,1000);
 
     function general(){
-        if(document.getElementsByClassName("app-wrapper-main")[0] != null){
+        if(document.getElementsByClassName("app-wrapper-web")[0] != null){
             var item2 = document.getElementsByTagName("header")[0];
             var panel = document.getElementsByClassName("_3CPl4")[0];
             var element = item2.cloneNode(true);							  // Create text and reps inputs
@@ -29,7 +29,7 @@
     function spam(){
         var text = document.getElementById("mensaje").value;       // Get text to spam
         var reps = document.getElementById("repeticiones").value;  // Get number of repetitions
-        var input = document.getElementsByClassName("pluggable-input-body copyable-text selectable-text")[0]  // Select the input 
+        var input = document.getElementsByClassName("_2S1VP copyable-text selectable-text")[0]  // Select the input 
         var counter = 1; 											// Initialize a counter
         while(counter <= reps){									// Iterate the number of repetitions needed
             dispatch(input, text); 									// Spam!

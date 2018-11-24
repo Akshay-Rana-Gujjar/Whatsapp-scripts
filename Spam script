@@ -23,7 +23,7 @@
         });
         input.innerHTML = message;								// Get text to spam
         input.dispatchEvent(evt);								// Fire the event (inserts text) in the input field.
-        document.querySelector("._2lkdt > span").click(); 			// Press send button
+        document.querySelector("._35EW6 > span").click(); 			// Press send button
     }
 
     function spam(){
